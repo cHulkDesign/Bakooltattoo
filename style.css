@@ -1,0 +1,316 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*général*/
+
+body {
+  font-size: 1vw;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/*Typo*/
+
+@font-face {
+  font-family: "BlowBrush";
+  src: url("../fonts/blowbrush.otf");
+  }
+@font-face {
+  font-family: "Vivaldi";
+  src:url("../fonts/VIVALDII.TTF");
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.8rem;
+}
+
+h6 {
+  font-size: 0.5rem;
+}
+
+.height{
+  min-height: 100vh;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-black {
+  color: #2B2B2B;
+}
+
+.text-grey {
+  color: #CCCCCC;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-40 {
+  font-size: 2.5rem;
+}
+
+.text-80 {
+  font-size: 5rem;
+}
+
+.text-30 {
+  font-size: 1.875rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-18 {
+  font-size: 1.125rem;
+}
+
+.text-19{
+  font-size: 1.2rem;
+}
+
+.texth1{
+  font-family: "BlowBrush", arial, sans-serif;
+}
+
+.textcur{
+  font-family:  "Vivaldi", arial, sans-serif;
+}
+
+.colorprimary{
+  color: #fff;
+}
+
+.colorsecondary{
+  color: #dbaa4d;
+}
+
+.color3{
+  color: #f7c871;
+}
+
+.flex{
+  display: flex;
+}
+
+.jcsa{
+  justify-content: space-around;
+}
+
+.jcsb{
+  justify-content: space-between;
+}
+
+.jcse{
+  justify-content: space-evenly;
+}
+
+.jcc{
+  justify-content: center;
+}
+
+.aic{
+  align-items: center;
+}
+
+.aifs{
+  align-items: flex-start;
+}
+
+.aife{
+align-items: flex-end;
+}
+
+
+.section-header{
+  min-height: 100vh;
+  background: url("../images/header2.jpg") no-repeat;
+  background-size: contain ;
+  background-position: center;
+}
+
+
+.section-nav-ul{
+  background-color: #000;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.section-nav{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.section-nav-li a{
+  text-decoration: none;
+  color: #f7c871;
+    transition: all 1s;
+    letter-spacing: 0.2rem;
+}
+
+.section-nav-li a:hover{
+  color: #fff;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transition: all 1s;
+}
+
+
+.section-image-li a{
+  text-decoration: none;
+  color: #dbaa4d;
+}
+
+.section-texte-accueil{
+display: none;
+  width: 50%;
+  margin: auto;
+}
+
+.section-images{
+  margin-top: 10vh;
+}
+
+.footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.tleft{
+  text-align: left;
+}
+
+
+.footer{
+  min-height: 30vh;
+}
+
+.width80{
+  width: 80%;
+  margin: auto;
+}
+
+.width50{
+  width: 50%;
+}
+
+
+
+
+
+figure.openinghours-content {
+    border-radius:4px;
+    box-shadow: 0 0 10px #dbaa4d;
+    padding: 1rem 0;
+}
+header.header {
+	flex-direction: column;
+}
+header.header h2.header-title {
+ 	display:block;
+	font-size: 1.2rem;
+ 	text-align:center;
+}
+header.header h4.openorclosed {
+ 	display:inline-block;
+	font-size: 1.5rem;
+	padding: .5rem;
+	text-align: center;
+}
+header.header h4.open {
+    color: #8AC007;
+}
+header.header h4.open:after {
+    content:" Ouvert";
+    color: #8AC007;
+}
+header.header h4.closed:after {
+    content:" Fermé";
+    color: #FF3232;
+}
+li.day {
+	font-size: 1.5rem;
+	padding: .5rem;
+}
+li.day h3 {
+ 	font-weight:bold;
+	font-size: 1.6rem;
+	grid-column: span 6;
+}
+li.day.today {
+    color: #8AC007;
+}
+
+
+
+.marl{
+  margin-left: auto;
+}
+
+.marr{
+  margin-right: auto;
+}
