@@ -1,0 +1,156 @@
+/*Auteur : Thomas Vlck*/
+
+/*Style css - styles spécifiques au site*/
+
+/*balises html de base*/
+
+body {}
+
+/*h1, h2, h3, h4, h5, h6*/
+
+.h1 {}
+
+.h2 {}
+
+.h3 {}
+
+.h4 {}
+
+.h5 {}
+
+.h6 {}
+
+/*header*/
+
+.header {
+  position: relative;
+  z-index: 1;
+  background: url("") no-repeat top;
+  background-size: cover;
+}
+
+.header_img {
+  position: relative;
+  top: 0;
+}
+
+/*menu*/
+
+.menu {
+  position: relative;
+  z-index: 2;
+}
+
+.menu-ul {
+  list-style-type: none;
+}
+
+.menu-ul-li {}
+
+/*menu color*/
+
+.menu-ul-li a {
+  color: var(--black-color);
+}
+
+.menu-ul-li a:hover {
+  color: var(--white-color);
+}
+
+.menu-ul-li a.current, .current {
+  color: var(--white-color);
+}
+
+.hamburger {
+  display: none;
+}
+
+/*main*/
+
+.main {
+  position: relative;
+  z-index: 3;
+}
+
+/*content*/
+
+.content {
+  position: relative;
+  z-index: 4;
+}
+
+/*contain*/
+
+.contain {
+  position: relative;
+  z-index: 5;
+}
+
+/*Button*/
+
+.button {}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/*sections*/
+
+.section {
+  position: relative;
+}
+
+/*articles*/
+
+.article {
+  position: relative;
+}
+
+/*footer, griffe*/
+
+.footer {
+  position: relative;
+  z-index: 6;
+}
+
+.footer-ul {
+  list-style-type: none;
+}
+
+/*Responsive spécifique au site*/
+
+/*-----------------------------------------------------------------------
+Ce qui sera affiché au-dela de 1824px - Format Desktop Large / Imac
+-----------------------------------------------------------------------*/
+
+@media (min-width: 1824px) {}
+
+/*-----------------------------------------------------------------------
+Ce qui sera affiché entre 1024px et 1824px - Format Desktop
+-----------------------------------------------------------------------*/
+
+@media (min-width: 1024px) and (max-width: 1824px) {}
+
+/*-----------------------------------------------------------------------
+Ce qui sera affiché entre 768px et 1024px - Format Tablette / Ipad
+-----------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/*-----------------------------------------------------------------------
+Ce qui sera affiché entre 480px et 768px - Format Smartphone / Iphone Large
+-----------------------------------------------------------------------*/
+
+@media (min-width: 480px) and (max-width: 768px) {}
+
+/*-----------------------------------------------------------------------
+Ce qui sera affiché entre 320px et 480px - Format Smartphone / Iphone
+-----------------------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 480px) {}
+
+/*-----------------------------------------------------------------------
+Ce qui sera affiché en-dessous de 320px - Format En-dessous Smartphone / Iphone
+-----------------------------------------------------------------------*/
+
+@media (max-width: 320px) {}

@@ -1,0 +1,160 @@
+/*Auteur : Thomas Vlck*/
+
+/*Color css*/
+
+/*Paramétrages des Variables*/
+
+:root {
+  --teinte-1: 0;
+  --teinte-2: 176;
+  /*vert-bleuté*/
+  --primary-color: hsl(var(--teinte-1), 0%, 100%);
+  --secondary-color: hsl(var(--teinte-2), 100%, 33%);
+  --third-color: hsl(var(--teinte-1), 0%, 22%);
+  --fourth-color: hsl(var(--teinte-1), 0%, 42%);
+  --alpha-color: hsla(var(--teinte-1), 60%, 60%, 0.5);
+  --black-color: hsl(var(--teinte-1), 0%, 0%);
+  --black-hover-color: hsl(var(--teinte-1), 0%, 10%);
+  --white-color: hsl(var(--teinte-1), 0%, 100%);
+  --box-shadow: hsla(var(--teinte-1), 0%, 0%, 0.65);
+}
+
+/*border color*/
+
+.border-primary {
+  border-color: var(--primary-color);
+}
+
+.border-secondary {
+  border-color: var(--secondary-color);
+}
+
+.border-third {
+  border-color: var(--third-color);
+}
+
+.border-fourth {
+  border-color: var(--fourth-color);
+}
+
+.border-alpha {
+  border-color: var(--alpha-color);
+}
+
+.border-black {
+  border-color: var(--black-color);
+}
+
+.border-white {
+  border-color: var(--white-color);
+}
+
+/*background color*/
+
+.bg-primary {
+  background: var(--primary-color);
+}
+
+.bg-secondary {
+  background: var(--secondary-color);
+}
+
+.bg-third {
+  background: var(--third-color);
+}
+
+.bg-fourth {
+  background: var(--fourth-color);
+}
+
+.bg-alpha {
+  background: var(--alpha-color);
+}
+
+.bg-black {
+  background: var(--black-color);
+}
+
+.bg-white {
+  background-color: var(--white-color);
+}
+
+/*span color*/
+
+.span-white, .span-white-underline, .span-white-overline {
+  color: var(--white-color);
+  text-shadow: 0rem 0.1rem 0.1rem var(--black-color);
+}
+
+.span-black, .span-black-underline, .span-black-overline {
+  color: var(--black-color);
+  text-shadow: 0rem 0.1rem 0.1rem var(--white-color);
+}
+
+/*text color*/
+
+.color-black {
+  color: var(--black-color);
+}
+
+.color-white {
+  color: var(--white-color);
+}
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+.color-secondary {
+  color: var(--secondary-color);
+}
+
+.color-third {
+  color: var(--third-color);
+}
+
+.color-fourth {
+  color: var(--fourth-color);
+}
+
+/*text-shadow*/
+
+.text-shadow-black-1 {
+  text-shadow: 0rem 0.1rem 0.1rem var(--black-color);
+}
+
+.text-shadow-black-2 {
+  text-shadow: 0rem 0.2rem 0.2rem var(--black-color);
+}
+
+.text-shadow-black-3 {
+  text-shadow: 0rem 0.3rem 0.3rem var(--black-color);
+}
+
+.text-shadow-black-4 {
+  text-shadow: 0rem 0.4rem 0.4rem var(--black-color);
+}
+
+.text-shadow-black-5 {
+  text-shadow: 0rem 0.5rem 0.5rem var(--black-color);
+}
+
+.text-shadow-white-1 {
+  text-shadow: 0rem 0.1rem 0.1rem var(--white-color);
+}
+
+.text-shadow-white-2 {
+  text-shadow: 0rem 0.2rem 0.2rem var(--white-color);
+}
+
+.text-shadow-white-3 {
+  text-shadow: 0rem 0.3rem 0.3rem var(--white-color);
+}
+
+.text-shadow-white-4 {
+  text-shadow: 0rem 0.4rem 0.4rem var(--white-color);
+}
+
+.text-shadow-white-5 {
+  text-shadow: 0rem 0.5rem 0.5rem var(--white-color);
+}

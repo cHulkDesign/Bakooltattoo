@@ -1,0 +1,313 @@
+/*Auteur : Thomas Vlck*/
+
+/*border CSS*/
+
+/*tailles border entier*/
+
+.border1 {
+  border-width: 0.1rem;
+}
+
+.border2 {
+  border-width: 0.2rem;
+}
+
+.border3 {
+  border-width: 0.3rem;
+}
+
+.border4 {
+  border-width: 0.4rem;
+}
+
+.border5 {
+  border-width: 0.5rem;
+}
+
+.border6 {
+  border-width: 0.6rem;
+}
+
+.border7 {
+  border-width: 0.7rem;
+}
+
+.border8 {
+  border-width: 0.8rem;
+}
+
+.border9 {
+  border-width: 0.9rem;
+}
+
+.border10 {
+  border-width: 1rem;
+}
+
+/*tailles border top*/
+
+.bordertop1 {
+  border-top-width: 0.1rem;
+}
+
+.bordertop2 {
+  border-top-width: 0.2rem;
+}
+
+.bordertop3 {
+  border-top-width: 0.3rem;
+}
+
+.bordertop4 {
+  border-top-width: 0.4rem;
+}
+
+.bordertop5 {
+  border-top-width: 0.5rem;
+}
+
+.bordertop6 {
+  border-top-width: 0.6rem;
+}
+
+.bordertop7 {
+  border-top-width: 0.7rem;
+}
+
+.bordertop8 {
+  border-top-width: 0.8rem;
+}
+
+.bordertop9 {
+  border-top-width: 0.9rem;
+}
+
+.bordertop10 {
+  border-top-width: 1rem;
+}
+
+/*tailles border right*/
+
+.borderright1 {
+  border-right-width: 0.1rem;
+}
+
+.borderright2 {
+  border-right-width: 0.2rem;
+}
+
+.borderright3 {
+  border-right-width: 0.3rem;
+}
+
+.borderright4 {
+  border-right-width: 0.4rem;
+}
+
+.borderright5 {
+  border-right-width: 0.5rem;
+}
+
+.borderright6 {
+  border-right-width: 0.6rem;
+}
+
+.borderright7 {
+  border-right-width: 0.7rem;
+}
+
+.borderright8 {
+  border-right-width: 0.8rem;
+}
+
+.borderright9 {
+  border-right-width: 0.9rem;
+}
+
+.borderright10 {
+  border-right-width: 1rem;
+}
+
+/*tailles border bottom*/
+
+.borderbottom1 {
+  border-bottom-width: 0.1rem;
+}
+
+.borderbottom2 {
+  border-bottom-width: 0.2rem;
+}
+
+.borderbottom3 {
+  border-bottom-width: 0.3rem;
+}
+
+.borderbottom4 {
+  border-bottom-width: 0.4rem;
+}
+
+.borderbottom5 {
+  border-bottom-width: 0.5rem;
+}
+
+.borderbottom6 {
+  border-bottom-width: 0.6rem;
+}
+
+.borderbottom7 {
+  border-bottom-width: 0.7rem;
+}
+
+.borderbottom8 {
+  border-bottom-width: 0.8rem;
+}
+
+.borderbottom9 {
+  border-bottom-width: 0.9rem;
+}
+
+.borderbottom10 {
+  border-right-width: 1rem;
+}
+
+/*tailles border left*/
+
+.borderleft1 {
+  border-left-width: 0.1rem;
+}
+
+.borderleft2 {
+  border-left-width: 0.2rem;
+}
+
+.borderleft3 {
+  border-left-width: 0.3rem;
+}
+
+.borderleft4 {
+  border-left-width: 0.4rem;
+}
+
+.borderleft5 {
+  border-left-width: 0.5rem;
+}
+
+.borderleft6 {
+  border-left-width: 0.6rem;
+}
+
+.borderleft7 {
+  border-left-width: 0.7rem;
+}
+
+.borderleft8 {
+  border-left-width: 0.8rem;
+}
+
+.borderleft9 {
+  border-left-width: 0.9rem;
+}
+
+.borderleft10 {
+  border-right-width: 1rem;
+}
+
+/*border styles*/
+
+.borderdotted {
+  border-style: dotted;
+}
+
+.borderdashed {
+  border-style: dashed;
+}
+
+.bordersolid {
+  border-style: solid;
+}
+
+.borderdouble {
+  border-style: double;
+}
+
+.bordergroove {
+  border-style: groove;
+}
+
+.borderridge {
+  border-style: ridge;
+}
+
+.borderinset {
+  border-style: inset;
+}
+
+.borderoutset {
+  border-style: outset;
+}
+
+.bordernone {
+  border-style: none;
+}
+
+.borderhidden {
+  border-style: hidden;
+}
+
+.bordermix {
+  border-style: dotted dashed solid double;
+}
+
+/*border radius*/
+
+.radius0_5 {
+  border-radius: 0.5rem;
+}
+
+.radius1 {
+  border-radius: 1rem;
+}
+
+.radius2 {
+  border-radius: 2rem;
+}
+
+.radius3 {
+  border-radius: 3rem;
+}
+
+.radius4 {
+  border-radius: 4rem;
+}
+
+.radius5 {
+  border-radius: 5rem;
+}
+
+.radius6 {
+  border-radius: 6rem;
+}
+
+.radius7 {
+  border-radius: 7rem;
+}
+
+.radius8 {
+  border-radius: 8rem;
+}
+
+.radius9 {
+  border-radius: 9rem;
+}
+
+.radius10 {
+  border-radius: 10rem;
+}
+
+.radius11 {
+  border-radius: 11rem;
+}
+
+.radius12 {
+  border-radius: 12rem;
+}

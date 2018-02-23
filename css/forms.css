@@ -1,0 +1,25 @@
+/*Auteur : Thomas Vlck*/
+
+/*Forms CSS - Formulaires*/
+
+.fieldset {
+  width: 100%;
+}
+
+:required {
+  border: 0.2rem solid var(--primary-color);
+}
+
+.input {
+  width: 100%;
+}
+
+.textarea {
+  width: 100%;
+}
+
+.noresize {
+  resize: none;
+}
+
+.checkbox {}

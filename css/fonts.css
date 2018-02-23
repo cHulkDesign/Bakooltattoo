@@ -1,0 +1,221 @@
+/*Auteur : Thomas Vlck*/
+
+/*Fonts css*/
+
+/*Importation du/des font(s)*/
+
+@font-face {
+  font-family: "police-specifique";
+  src: url("../fonts/police-specifique");
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/*Police specifique et police de base*/
+
+.font-spe {
+  font-family: "police-specifique", sans-serif;
+  text-decoration: none;
+}
+
+.font-spe-underline {
+  font-family: "police-specifique", sans-serif;
+  text-decoration: underline;
+}
+
+.font-spe-overline {
+  font-family: "police-specifique", sans-serif;
+  text-decoration: overline;
+}
+
+.font-base {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.font-base-underline {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: underline;
+}
+
+.font-base-overline {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: overline;
+}
+
+.span-black, .span-white {
+  font-weight: bold;
+}
+
+.span-black-underline, .span-white-underline {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.span-black-overline, .span-white-overline {
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+/*font weight*/
+
+.weightlight {
+  font-weight: lighter;
+}
+
+.weightnone {
+  font-weight: normal;
+}
+
+.weightbold {
+  font-weight: bold;
+}
+
+/*font style*/
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-oblique {
+  font-style: oblique;
+}
+
+.font-normal {
+  font-style: normal;
+}
+
+/*font variant*/
+
+.small-caps {
+  font-variant-caps: small-caps;
+}
+
+.unicase {
+  font-variant-caps: unicase;
+}
+
+/*text transform*/
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+
+.fullwidth {
+  text-transform: full-width;
+}
+
+/*text align*/
+
+.text-align-c {
+  text-align: center;
+}
+
+.text-align-l {
+  text-align: left;
+}
+
+.text-align-r {
+  text-align: right;
+}
+
+/*text decoration*/
+
+.text-deco-u {
+  text-decoration: underline;
+}
+
+.text-deco-o {
+  text-decoration: overline;
+}
+
+.text-deco-no {
+  text-decoration: none;
+}
+
+/*List Style*/
+
+.list-square {
+  list-style-type: square;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-latin {
+  list-style-type: lower-latin;
+}
+
+.list-armenian {
+  list-style-type: armenian;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.list-georgian {
+  list-style-type: georgian;
+}
+
+.list-alpha {
+  list-style-type: lower-alpha;
+}
+
+.list-greek {
+  list-style-type: lower-greek;
+}
+
+/*Letter spacing*/
+
+.ls1 {
+  letter-spacing: 0.1rem;
+}
+
+.ls2 {
+  letter-spacing: 0.2rem;
+}
+
+.ls3 {
+  letter-spacing: 0.3rem;
+}
+
+.ls4 {
+  letter-spacing: 0.4rem;
+}
+
+.ls5 {
+  letter-spacing: 0.5rem;
+}
+
+.ls6 {
+  letter-spacing: 0.6rem;
+}
+
+.ls7 {
+  letter-spacing: 0.7rem;
+}
+
+.ls8 {
+  letter-spacing: 0.8rem;
+}
+
+.ls9 {
+  letter-spacing: 0.9rem;
+}
+
+.ls10 {
+  letter-spacing: 1.0rem;
+}

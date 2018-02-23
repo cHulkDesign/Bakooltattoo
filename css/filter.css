@@ -1,0 +1,341 @@
+/*Auteur : Thomas Vlck*/
+
+/*Filter css*/
+
+/*Blur*/
+
+.blur0 {
+  filter: blur(0);
+}
+
+.blur1 {
+  filter: blur(0.1rem);
+}
+
+.blur2 {
+  filter: blur(0.2rem);
+}
+
+.blur3 {
+  filter: blur(0.3rem);
+}
+
+.blur4 {
+  filter: blur(0.4rem);
+}
+
+.blur5 {
+  filter: blur(0.5rem);
+}
+
+.blur6 {
+  filter: blur(0.6rem);
+}
+
+.blur7 {
+  filter: blur(0.7rem);
+}
+
+.blur8 {
+  filter: blur(0.8rem);
+}
+
+.blur9 {
+  filter: blur(0.9rem);
+}
+
+.blur10 {
+  filter: blur(1rem);
+}
+
+.blur11 {
+  filter: blur(1.1rem);
+}
+
+.blur12 {
+  filter: blur(1.2rem);
+}
+
+.blur13 {
+  filter: blur(1.3rem);
+}
+
+.blur14 {
+  filter: blur(1.4rem);
+}
+
+.blur15 {
+  filter: blur(1.5rem);
+}
+
+.blur16 {
+  filter: blur(1.6rem);
+}
+
+.blur17 {
+  filter: blur(1.7rem);
+}
+
+.blur18 {
+  filter: blur(1.8rem);
+}
+
+.blur19 {
+  filter: blur(1.9rem);
+}
+
+.blur20 {
+  filter: blur(2rem);
+}
+
+/*Opacity*/
+
+.opacity3 {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.opacity5 {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.opacity7 {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.opacity10 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/*Grayscale*/
+
+.grayscale0 {
+  filter: grayscale(0);
+}
+
+.grayscale1 {
+  filter: grayscale(10%);
+}
+
+.grayscale2 {
+  filter: grayscale(20%);
+}
+
+.grayscale3 {
+  filter: grayscale(30%);
+}
+
+.grayscale4 {
+  filter: grayscale(40%);
+}
+
+.grayscale5 {
+  filter: grayscale(50%);
+}
+
+.grayscale6 {
+  filter: grayscale(60%);
+}
+
+.grayscale7 {
+  filter: grayscale(70%);
+}
+
+.grayscale8 {
+  filter: grayscale(80%);
+}
+
+.grayscale9 {
+  filter: grayscale(90%);
+}
+
+.grayscale10 {
+  filter: grayscale(100%);
+}
+
+/*Brightness*/
+
+.brightness0 {
+  filter: brightness(0%);
+}
+
+.brightness1 {
+  filter: brightness(10%);
+}
+
+.brightness2 {
+  filter: brightness(20%);
+}
+
+.brightness3 {
+  filter: brightness(30%);
+}
+
+.brightness4 {
+  filter: brightness(40%);
+}
+
+.brightness5 {
+  filter: brightness(50%);
+}
+
+.brightness6 {
+  filter: brightness(60%);
+}
+
+.brightness7 {
+  filter: brightness(70%);
+}
+
+.brightness8 {
+  filter: brightness(80%);
+}
+
+.brightness9 {
+  filter: brightness(90%);
+}
+
+.brightness10 {
+  filter: brightness(100%);
+}
+
+/*Contrast*/
+
+.contrast0 {
+  filter: contrast(0%);
+}
+
+.contrast1 {
+  filter: contrast(10%);
+}
+
+.contrast2 {
+  filter: contrast(20%);
+}
+
+.contrast3 {
+  filter: contrast(30%);
+}
+
+.contrast4 {
+  filter: contrast(40%);
+}
+
+.contrast5 {
+  filter: contrast(50%);
+}
+
+.contrast6 {
+  filter: contrast(60%);
+}
+
+.contrast7 {
+  filter: contrast(70%);
+}
+
+.contrast8 {
+  filter: contrast(80%);
+}
+
+.contrast9 {
+  filter: contrast(90%);
+}
+
+.contrast10 {
+  filter: contrast(100%);
+}
+
+/*Saturate*/
+
+.saturate0 {
+  filter: saturate(0%);
+}
+
+.saturate1 {
+  filter: saturate(10%);
+}
+
+.saturate2 {
+  filter: saturate(20%);
+}
+
+.saturate3 {
+  filter: saturate(30%);
+}
+
+.saturate4 {
+  filter: saturate(40%);
+}
+
+.saturate5 {
+  filter: saturate(50%);
+}
+
+.saturate6 {
+  filter: saturate(60%);
+}
+
+.saturate7 {
+  filter: saturate(70%);
+}
+
+.saturate8 {
+  filter: saturate(80%);
+}
+
+.saturate9 {
+  filter: saturate(90%);
+}
+
+.saturate10 {
+  filter: saturate(100%);
+}
+
+/*Sepia*/
+
+.sepia0 {
+  filter: sepia(0%);
+}
+
+.sepia1 {
+  filter: sepia(10%);
+}
+
+.sepia2 {
+  filter: sepia(20%);
+}
+
+.sepia3 {
+  filter: sepia(30%);
+}
+
+.sepia4 {
+  filter: sepia(40%);
+}
+
+.sepia5 {
+  filter: sepia(50%);
+}
+
+.sepia6 {
+  filter: sepia(60%);
+}
+
+.sepia7 {
+  filter: sepia(70%);
+}
+
+.sepia8 {
+  filter: sepia(80%);
+}
+
+.sepia9 {
+  filter: sepia(90%);
+}
+
+.sepia10 {
+  filter: sepia(100%);
+}

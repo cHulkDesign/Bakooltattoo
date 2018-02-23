@@ -1,0 +1,665 @@
+/*Auteur : Thomas Vlck*/
+
+/*Grid css*/
+
+/*Grilles 1 à 12 Colonnes, Lignes autos*/
+
+.col1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+}
+
+.col2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.col3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.col4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+
+.col5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+}
+
+.col6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+}
+
+.col7 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto;
+}
+
+.col8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+}
+
+.col9 {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: auto;
+}
+
+.col10 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto;
+}
+
+.col11 {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: auto;
+}
+
+.col12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+/*Colonnes Placements*/
+
+.col-1 {
+  grid-column: 1;
+}
+
+.col-2 {
+  grid-column: 2;
+}
+
+.col-3 {
+  grid-column: 3;
+}
+
+.col-4 {
+  grid-column: 4;
+}
+
+.col-5 {
+  grid-column: 5;
+}
+
+.col-6 {
+  grid-column: 6;
+}
+
+.col-7 {
+  grid-column: 7;
+}
+
+.col-8 {
+  grid-column: 8;
+}
+
+.col-9 {
+  grid-column: 9;
+}
+
+.col-10 {
+  grid-column: 10;
+}
+
+.col-11 {
+  grid-column: 11;
+}
+
+.col-12 {
+  grid-column: 12;
+}
+
+/*Colonnes Placements entier*/
+
+.col-1-13 {
+  grid-column: 1 / 13;
+}
+
+/*Colonnes Placements moitié*/
+
+.col-1-7 {
+  grid-column: 1 / 7;
+}
+
+.col-2-8 {
+  grid-column: 2 / 8;
+}
+
+.col-3-9 {
+  grid-column: 3 / 9;
+}
+
+.col-4-10 {
+  grid-column: 4 / 10;
+}
+
+.col-5-11 {
+  grid-column: 5 / 11;
+}
+
+.col-6-12 {
+  grid-column: 6 / 12;
+}
+
+.col-7-13 {
+  grid-column: 7 / 13;
+}
+
+/*Colonnes Placements quart*/
+
+.col-1-5 {
+  grid-column: 1 / 5;
+}
+
+.col-2-6 {
+  grid-column: 2 / 6;
+}
+
+.col-3-7 {
+  grid-column: 3 / 7;
+}
+
+.col-4-8 {
+  grid-column: 4 / 8;
+}
+
+.col-5-9 {
+  grid-column: 5 / 9;
+}
+
+.col-6-10 {
+  grid-column: 6 / 10;
+}
+
+.col-7-11 {
+  grid-column: 7 / 11;
+}
+
+.col-8-12 {
+  grid-column: 8 / 12;
+}
+
+.col-9-13 {
+  grid-column: 9 / 13;
+}
+
+/*Colonnes Placements tiers*/
+
+.col-1-4 {
+  grid-column: 1 / 4;
+}
+
+.col-2-5 {
+  grid-column: 2 / 5;
+}
+
+.col-3-6 {
+  grid-column: 3 / 6;
+}
+
+.col-4-7 {
+  grid-column: 4 / 7;
+}
+
+.col-5-8 {
+  grid-column: 5 / 8;
+}
+
+.col-6-9 {
+  grid-column: 6 / 9;
+}
+
+.col-7-10 {
+  grid-column: 7 / 10;
+}
+
+.col-8-11 {
+  grid-column: 8 / 11;
+}
+
+.col-9-12 {
+  grid-column: 9 / 12;
+}
+
+.col-10-13 {
+  grid-column: 10 / 13;
+}
+
+/*Colonnes Placements double*/
+
+.col-1-3 {
+  grid-column: 1 / 3;
+}
+
+.col-2-4 {
+  grid-column: 2 / 4;
+}
+
+.col-3-5 {
+  grid-column: 3 / 5;
+}
+
+.col-4-6 {
+  grid-column: 4 / 6;
+}
+
+.col-5-7 {
+  grid-column: 5 / 7;
+}
+
+.col-6-8 {
+  grid-column: 6 / 8;
+}
+
+.col-7-9 {
+  grid-column: 7 / 9;
+}
+
+.col-8-10 {
+  grid-column: 8 / 10;
+}
+
+.col-9-11 {
+  grid-column: 9 / 11;
+}
+
+.col-10-12 {
+  grid-column: 10 / 12;
+}
+
+.col-11-13 {
+  grid-column: 11 / 13;
+}
+
+/*Lignes Placements*/
+
+.row-1 {
+  grid-row: 1;
+}
+
+.row-2 {
+  grid-row: 2;
+}
+
+.row-3 {
+  grid-row: 3;
+}
+
+.row-4 {
+  grid-row: 4;
+}
+
+.row-5 {
+  grid-row: 5;
+}
+
+.row-6 {
+  grid-row: 6;
+}
+
+.row-7 {
+  grid-row: 7;
+}
+
+.row-8 {
+  grid-row: 8;
+}
+
+.row-9 {
+  grid-row: 9;
+}
+
+.row-10 {
+  grid-row: 10;
+}
+
+.row-11 {
+  grid-row: 11;
+}
+
+.row-12 {
+  grid-row: 12;
+}
+
+/*Lignes Placements entier*/
+
+.row-1-13 {
+  grid-row: 1 / 13;
+}
+
+/*Lignes Placements moitié*/
+
+.row-1-7 {
+  grid-row: 1 / 7;
+}
+
+.row-2-8 {
+  grid-row: 2 / 8;
+}
+
+.row-3-9 {
+  grid-row: 3 / 9;
+}
+
+.row-4-10 {
+  grid-row: 4 / 10;
+}
+
+.row-5-11 {
+  grid-row: 5 / 11;
+}
+
+.row-6-12 {
+  grid-row: 6 / 12;
+}
+
+.row-7-13 {
+  grid-row: 7 / 13;
+}
+
+/*Lignes Placements quart*/
+
+.row-1-5 {
+  grid-row: 1 / 5;
+}
+
+.row-2-6 {
+  grid-row: 2 / 6;
+}
+
+.row-3-7 {
+  grid-row: 3 / 7;
+}
+
+.row-4-8 {
+  grid-row: 4 / 8;
+}
+
+.row-5-9 {
+  grid-row: 5 / 9;
+}
+
+.row-6-10 {
+  grid-row: 6 / 10;
+}
+
+.row-7-11 {
+  grid-row: 7 / 11;
+}
+
+.row-8-12 {
+  grid-row: 8 / 12;
+}
+
+.row-9-13 {
+  grid-row: 9 / 13;
+}
+
+/*Lignes Placements tiers*/
+
+.row-1-4 {
+  grid-row: 1 / 4;
+}
+
+.row-2-5 {
+  grid-row: 2 / 5;
+}
+
+.row-3-6 {
+  grid-row: 3 / 6;
+}
+
+.row-4-7 {
+  grid-row: 4 / 7;
+}
+
+.row-5-8 {
+  grid-row: 5 / 8;
+}
+
+.row-6-9 {
+  grid-row: 6 / 9;
+}
+
+.row-7-10 {
+  grid-row: 7 / 10;
+}
+
+.row-8-11 {
+  grid-row: 8 / 11;
+}
+
+.row-9-12 {
+  grid-row: 9 / 12;
+}
+
+.row-10-13 {
+  grid-row: 10 / 13;
+}
+
+/*Lignes Placements double*/
+
+.row-1-3 {
+  grid-row: 1 / 3;
+}
+
+.row-2-4 {
+  grid-row: 2 / 4;
+}
+
+.row-3-5 {
+  grid-row: 3 / 5;
+}
+
+.row-4-6 {
+  grid-row: 4 / 6;
+}
+
+.row-5-7 {
+  grid-row: 5 / 7;
+}
+
+.row-6-8 {
+  grid-row: 6 / 8;
+}
+
+.row-7-9 {
+  grid-row: 7 / 9;
+}
+
+.row-8-10 {
+  grid-row: 8 / 10;
+}
+
+.row-9-11 {
+  grid-row: 9 / 11;
+}
+
+.row-10-12 {
+  grid-row: 10 / 12;
+}
+
+.row-11-13 {
+  grid-row: 11 / 13;
+}
+
+/*Grid-Column-Gap*/
+
+.col-gap0 {
+  grid-column-gap: 0%;
+}
+
+.col-gap5 {
+  grid-column-gap: 5%;
+}
+
+.col-gap10 {
+  grid-column-gap: 10%;
+}
+
+.col-gap15 {
+  grid-column-gap: 15%;
+}
+
+.col-gap20 {
+  grid-column-gap: 20%;
+}
+
+.col-gap25 {
+  grid-column-gap: 25%;
+}
+
+.col-gap30 {
+  grid-column-gap: 30%;
+}
+
+.col-gap35 {
+  grid-column-gap: 35%;
+}
+
+.col-gap40 {
+  grid-column-gap: 40%;
+}
+
+.col-gap45 {
+  grid-column-gap: 45%;
+}
+
+.col-gap50 {
+  grid-column-gap: 50%;
+}
+
+.col-gap55 {
+  grid-column-gap: 55%;
+}
+
+.col-gap60 {
+  grid-column-gap: 60%;
+}
+
+.col-gap65 {
+  grid-column-gap: 65%;
+}
+
+.col-gap70 {
+  grid-column-gap: 70%;
+}
+
+.col-gap75 {
+  grid-column-gap: 75%;
+}
+
+.col-gap80 {
+  grid-column-gap: 80%;
+}
+
+.col-gap85 {
+  grid-column-gap: 85%;
+}
+
+.col-gap90 {
+  grid-column-gap: 90%;
+}
+
+.col-gap95 {
+  grid-column-gap: 95%;
+}
+
+/*Grid-Row-Gap*/
+
+.row-gap0 {
+  grid-row-gap: 0%;
+}
+
+.row-gap5 {
+  grid-row-gap: 5%;
+}
+
+.row-gap10 {
+  grid-row-gap: 10%;
+}
+
+.row-gap15 {
+  grid-row-gap: 15%;
+}
+
+.row-gap20 {
+  grid-row-gap: 20%;
+}
+
+.row-gap25 {
+  grid-row-gap: 25%;
+}
+
+.row-gap30 {
+  grid-row-gap: 30%;
+}
+
+.row-gap35 {
+  grid-row-gap: 35%;
+}
+
+.row-gap40 {
+  grid-row-gap: 40%;
+}
+
+.row-gap45 {
+  grid-row-gap: 45%;
+}
+
+.row-gap50 {
+  grid-row-gap: 50%;
+}
+
+.row-gap55 {
+  grid-row-gap: 55%;
+}
+
+.row-gap60 {
+  grid-row-gap: 60%;
+}
+
+.row-gap65 {
+  grid-row-gap: 65%;
+}
+
+.row-gap70 {
+  grid-row-gap: 70%;
+}
+
+.row-gap75 {
+  grid-row-gap: 75%;
+}
+
+.row-gap80 {
+  grid-row-gap: 80%;
+}
+
+.row-gap85 {
+  grid-row-gap: 85%;
+}
+
+.row-gap90 {
+  grid-row-gap: 90%;
+}
+
+.row-gap95 {
+  grid-row-gap: 95%;
+}

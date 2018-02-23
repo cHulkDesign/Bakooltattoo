@@ -1,0 +1,312 @@
+/*Auteur : Thomas Vlck*/
+
+/*Size css*/
+
+/*Tailles de bases*/
+
+html {
+  font-size: 1vw;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+
+
+/*Tailles des polices*/
+
+.text-xxxl {
+  font-size: 500%;
+}
+
+.text-xxl {
+  font-size: 350%;
+}
+
+.text-xl {
+  font-size: 250%;
+}
+
+.text-l {
+  font-size: 150%;
+}
+
+.text-m {
+  font-size: 100%;
+}
+
+.text-s {
+  font-size: 80%;
+}
+
+.text-xs {
+  font-size: 60%;
+}
+
+.text-xxs {
+  font-size: 40%;
+}
+
+.text-xxxs {
+  font-size: 20%;
+}
+
+/*Largeurs en %*/
+
+.width100 {
+  width: 100%;
+}
+
+.width95 {
+  width: 95%;
+}
+
+.width90 {
+  width: 90%;
+}
+
+.width85 {
+  width: 85%;
+}
+
+.width80 {
+  width: 80%;
+}
+
+.width75 {
+  width: 75%;
+}
+
+.width70 {
+  width: 70%;
+}
+
+.width60 {
+  width: 60%;
+}
+
+.width55 {
+  width: 55%;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width45 {
+  width: 45%;
+}
+
+.width40 {
+  width: 40%;
+}
+
+.width35 {
+  width: 35%;
+}
+
+.width30 {
+  width: 30%;
+}
+
+.width25 {
+  width: 25%;
+}
+
+.width20 {
+  width: 20%;
+}
+
+.width15 {
+  width: 15%;
+}
+
+.width10 {
+  width: 10%;
+}
+
+.width5 {
+  width: 5%;
+}
+
+.width0 {
+  width: 0%;
+}
+
+/*Hauteurs en %*/
+
+.heightauto {
+  height: auto;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.height95 {
+  height: 95%;
+}
+
+.height90 {
+  height: 90%;
+}
+
+.height85 {
+  height: 85%;
+}
+
+.height80 {
+  height: 80%;
+}
+
+.height75 {
+  height: 75%;
+}
+
+.height70 {
+  height: 70%;
+}
+
+.height65 {
+  height: 65%;
+}
+
+.height60 {
+  height: 60%;
+}
+
+.height55 {
+  height: 55%;
+}
+
+.height50 {
+  height: 50%;
+}
+
+.height45 {
+  height: 45%;
+}
+
+.height40 {
+  height: 40%;
+}
+
+.height35 {
+  height: 35%;
+}
+
+.height30 {
+  height: 30%;
+}
+
+.height25 {
+  height: 25%;
+}
+
+.height20 {
+  height: 20%;
+}
+
+.height15 {
+  height: 15%;
+}
+
+.height10 {
+  height: 10%;
+}
+
+.height5 {
+  height: 5%;
+}
+
+.height0 {
+  height: 0%;
+}
+
+/*Hauteurs en vh*/
+
+.height100v {
+  height: 100vh;
+}
+
+.height95v {
+  height: 95vh;
+}
+
+.height90v {
+  height: 90vh;
+}
+
+.height85v {
+  height: 85vh;
+}
+
+.height80v {
+  height: 80vh;
+}
+
+.height75v {
+  height: 75vh;
+}
+
+.height70v {
+  height: 70vh;
+}
+
+.height65v {
+  height: 65vh;
+}
+
+.height60v {
+  height: 60vh;
+}
+
+.height55v {
+  height: 55vh;
+}
+
+.height50v {
+  height: 50vh;
+}
+
+.height45v {
+  height: 45vh;
+}
+
+.height40v {
+  height: 40vh;
+}
+
+.height35v {
+  height: 35vh;
+}
+
+.height30v {
+  height: 30vh;
+}
+
+.height25v {
+  height: 25vh;
+}
+
+.height20v {
+  height: 20vh;
+}
+
+.height15v {
+  height: 15vh;
+}
+
+.height10v {
+  height: 10vh;
+}
+
+.height5v {
+  height: 5vh;
+}
+
+.height0v {
+  height: 0vh;
+}
